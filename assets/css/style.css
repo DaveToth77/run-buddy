@@ -78,6 +78,7 @@ footer div {
 footer a {
   color: #024e76;
 }
+
 /* END FOOTER STYLES */
 
 /* STYLE ALL SECTION TAGS */
@@ -124,6 +125,7 @@ section {
   font-size: 24px;
   margin: 0;
 }
+
 .hero-form p {
   margin: 5px 0 15px 0;
 }
@@ -135,7 +137,7 @@ section {
   font-size: 16px;
   color: #024e76;
   width: 100%;
-  margin-bottom: 15px; 
+  margin-bottom: 15px;
 }
 
 .hero-form label {
@@ -148,7 +150,8 @@ section {
   border: none;
   padding: 10px 20px;
   font-size: 16px;
-} 
+}
+
 /* HERO STYLES END */
 
 
@@ -170,6 +173,7 @@ section {
 .secondary-border {
   border-color: #39a6b2;
 }
+
 /* SECTION TITLE STYLES END */
 
 /* WHAT WE DO STYLES */
@@ -182,11 +186,12 @@ section {
   font-size: 20px;
   text-align: center;
 }
+
 /* WHAT YOU DO STYLES END */
 
 
 /* WHAT YOU DO STYLES START */
-.steps { 
+.steps {
   background: #fce138;
 }
 
@@ -278,6 +283,7 @@ section {
 .trainer-bio p {
   font-size: 17px;
 }
+
 /* TRAINER STYLES END */
 
 /* REACH OUT STYLES START */
@@ -295,7 +301,7 @@ section {
   flex-wrap: wrap;
 }
 
-.contact-info > * {
+.contact-info>* {
   flex: 1;
   margin: 15px;
 }
@@ -313,14 +319,16 @@ section {
   font-size: 32px;
 }
 
-.contact-info p, .contact-info address {
+.contact-info p,
+.contact-info address {
   margin: 20px 0;
   line-height: 1.5;
   font-size: 16px;
   font-style: normal;
 }
 
-.contact-form input, .contact-form textarea {
+.contact-form input,
+.contact-form textarea {
   border: 1px solid #024e76;
   display: block;
   padding: 7px 15px;
@@ -383,15 +391,17 @@ section {
     font-size: 20px;
   }
 
-  footer h2, footer div {
+  footer h2,
+  footer div {
     text-align: center;
     width: 100%;
   }
 
-  .hero-cta, .hero-form {
+  .hero-cta,
+  .hero-form {
     width: 100%;
   }
-  
+
   .hero-cta {
     text-align: center;
   }
@@ -399,12 +409,63 @@ section {
   .section-title {
     width: 80%;
   }
-  
+
   .trainer {
     flex: 0 70%;
   }
-  
-  .contact-info iframe{
+
+  .contact-info iframe {
+    flex: 1 100%;
+  }
+}
+
+/* Media query for 980px */
+
+@media screen and (max-width: 980px) {
+  header {
+    padding-bottom: 0;
+    justify-content: center;
+  }
+
+  header h1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  header nav ul {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  header nav ul li a {
+    font-size: 20px;
+  }
+
+  footer h2,
+  footer div {
+    text-align: center;
+    width: 100%;
+  }
+
+  .hero-cta,
+  .hero-form {
+    width: 100%;
+  }
+
+  .hero-cta {
+    text-align: center;
+  }
+
+  .section-title {
+    width: 80%;
+  }
+
+  .trainer {
+    flex: 0 70%;
+  }
+
+  .contact-info iframe {
     flex: 1 100%;
   }
 }
@@ -434,7 +495,7 @@ section {
   }
 
   .step-text {
-    flex: 100%;  
+    flex: 100%;
   }
 }
 
@@ -460,7 +521,7 @@ section {
     text-align: center;
   }
 
-  .contact-info > * {
+  .contact-info>* {
     flex: 0 100%;
   }
 
